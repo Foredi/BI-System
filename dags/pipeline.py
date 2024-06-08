@@ -19,11 +19,11 @@ from qdrant_client.http.models import Distance, VectorParams, PointStruct
 qdrant_client = QdrantClient(host="qdrant_db", port=6333)
 # kết nối với Postgres
 conn = psycopg2.connect(
-    user="postgres.zcnfjmdqotssgdjktdga",
-    password="Data_platform123",
-    host="aws-0-ap-southeast-1.pooler.supabase.com",
-    port="5432",
-    database="postgres"
+    user="",
+    password="",
+    host="",
+    port="",
+    database=""
 )
 cursor = conn.cursor()
 # tôi có 5 bảng trong database postgres của mình là: "Orders", "Customers", "Order_Details", "Products", "Suppliers" và 5 file csv tương ứng
